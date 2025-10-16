@@ -1,3 +1,3 @@
-# eip712-signer (English)
+# eip712-signer-plus
 
-A general-purpose EIP-712 typed data signer & verifier CLI.
+Universal EIP-712 toolkit with batch signing and keystore support.

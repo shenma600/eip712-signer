@@ -1,18 +1,15 @@
 {
-  "name": "eip712-signer",
-  "version": "1.0.0",
+  "name": "eip712-signer-plus",
+  "version": "0.2.0",
   "type": "module",
   "license": "MIT",
-  "description": "EIP-712 typed data signer & verifier CLI.",
   "bin": {
     "eip712": "src/cli.js"
   },
-  "scripts": {
-    "start": "node src/cli.js --help",
-    "test": "node test/run.js"
-  },
   "dependencies": {
     "ethers": "^6.13.1",
-    "yargs": "^17.7.2"
+    "yargs": "^17.7.2",
+    "dotenv": "^16.4.5",
+    "csv-parse": "^5.5.6"
   }
 }
